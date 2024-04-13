@@ -12,16 +12,16 @@ netbox_install_epel: true
 
 netbox_superuser_enabled: true
 netbox_superuser_username: admin
-# netbox_superuser_password: changeme
+netbox_superuser_password: admin
 netbox_superuser_email: admin@localhost
 netbox_superuser_create_token: false
 
 netbox_database: netbox
 netbox_database_user: netbox
-# netbox_database_password: changeme
-# netbox_database_host: localhost
+netbox_database_password: postgres
+netbox_database_host: localhost
 netbox_database_port: 5432
-# netbox_database_socket: /var/run/postgresql
+#netbox_database_socket: /var/run/postgresql
 netbox_database_conn_age: 0
 netbox_database_options: {}
 netbox_database_maintenance: "postgres"

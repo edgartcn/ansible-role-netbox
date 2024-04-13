@@ -18,7 +18,7 @@ netbox_config:
       - dgribble@example.com
   # note that the array is nested above
   BANNER_LOGIN: ''
-  BANNER_TOP: &BANNER_TOP 'Your banner text'
+  BANNER_TOP: &BANNER_TOP 'TSO DC Inventory Management System'
   BANNER_BOTTOM: *BANNER_TOP
   # you probably won't need this, but you can reference other variables like above
   BASE_PATH: netbox/
@@ -27,7 +27,7 @@ netbox_config:
   CORS_ORIGIN_ALLOW_ALL: false
   # CORS_ORIGIN_REGEX_WHITELIST:
   CORS_ORIGIN_WHITELIST:
-    - hostname.domain.example
+    - netbox.targetso.net
   DATE_FORMAT: N j, Y
   DATETIME_FORMAT: 'N j, Y g:i a'
   DEBUG: true
